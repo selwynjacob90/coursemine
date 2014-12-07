@@ -22,14 +22,22 @@ var attach_event_handlers = function () {
   cm_layers["Search_Input"].on(Events.Click, handle_search_inp_click);
   cm_layers["Search_Button"].on(Events.Click, handle_search_btn_click);
 
+
   cm_layers["Filters"].subLayersByName("apply_btn")[0].on(Events.Click, handle_filter_btn_click);
+  cm_layers["search_fab"].on(Events.MouseOver, function () {
+    this.style.cursor = "pointer";
+  });
   cm_layers["search_fab"].on(Events.Click, handle_fab_click);
+  cm_layers["582_title_0"].on(Events.Click, handle_course_page);
+  cm_layers["582_title_1"].on(Events.Click, handle_course_page);
+  cm_layers["actions_fab"].on(Events.Click, handle_actions_fab);
 }
 
 //init
 var cm_layers = Framer.Importer.load("imported/coursemine");
 var layers_to_hide = [
-  "Auto_Results", "results_filter", "fab_bg", "fab_content"
+  "Auto_Results", "results_filter", "fab_bg", "fab_content",
+  "add_btn", "favorite_btn", "compare_btn", "syllabus_btn"
 ]
 var cm_globals = {
   fab_clicked : false

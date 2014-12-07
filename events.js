@@ -194,3 +194,23 @@ var handle_fab_click = function () {
   } //else
   
 }
+
+var handle_course_page = function () {
+  cm_layers.Results.visible = false;
+  var course_page_artboard = cm_layers["Course_Page"];
+  course_page_artboard.scale = 0.5;
+  course_page_artboard.visible = true;
+}
+
+var handle_actions_fab = function () {
+  var actions_btn_icon = cm_layers.cl_icon;
+  actions_btn_icon.animate({
+    properties : {
+      rotation: 45,
+      midX : 92,
+      midY : 60
+    },
+    curve: "ease-in-out",
+    time: 0.05
+  });
+}
