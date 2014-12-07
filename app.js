@@ -40,8 +40,10 @@ var layers_to_hide = [
   "add_btn", "favorite_btn", "compare_btn", "syllabus_btn"
 ]
 var cm_globals = {
-  fab_clicked : false
+  fab_clicked : false,
+  actions_fab_clicked : false
 };
+
 var typed_text;
 
 init_scale();

@@ -203,14 +203,114 @@ var handle_course_page = function () {
 }
 
 var handle_actions_fab = function () {
-  var actions_btn_icon = cm_layers.cl_icon;
-  actions_btn_icon.animate({
-    properties : {
-      rotation: 45,
-      midX : 92,
-      midY : 60
-    },
-    curve: "ease-in-out",
-    time: 0.05
-  });
+  var actions_btn_icon = cm_layers.cl_icon,
+      add_btn = cm_layers.add_btn, favorite_btn = cm_layers.favorite_btn,
+      compare_btn = cm_layers.compare_btn, syllabus_btn = cm_layers.syllabus_btn
+  
+  if(cm_globals.actions_fab_clicked) {
+    actions_btn_icon.animate({
+      properties : {
+        x : 42,
+        y : 42,
+        rotation: 0
+      },
+      curve: "ease-in-out",
+      time : 0.1
+    }); 
+    cm_globals.actions_fab_clicked = false;
+
+    Utils.delay(0.25, function() {
+      syllabus_btn.animate({
+        properties : {
+          opacity : 0
+        },
+        curve : "ease-in-out",
+        time : 0.2
+      });
+    });
+    Utils.delay(0.35, function() {
+      compare_btn.animate({
+        properties : {
+          opacity : 0
+        },
+        curve : "ease-in-out",
+        time : 0.2
+      });
+    });
+    Utils.delay(0.45, function() {
+      favorite_btn.animate({
+        properties : {
+          opacity : 0
+        },
+        curve : "ease-in-out",
+        time : 0.2
+      });
+    });
+    Utils.delay(0.55, function() {
+      add_btn.animate({
+        properties : {
+          opacity : 0
+        },
+        curve : "ease-in-out",
+        time : 0.2
+      });
+    });    
+  }
+  else {
+    actions_btn_icon.animate({
+      properties : {
+        x : 67,
+        y : 32,
+        rotation: 45
+      },
+      curve: "ease-in-out",
+      time : 0.1
+    }); 
+    cm_globals.actions_fab_clicked = true;
+
+    //actions items animations
+    add_btn.opacity = 0, favorite_btn.opacity = 0,
+    compare_btn.opacity = 0, syllabus_btn.opacity = 0;
+
+    add_btn.visible = true, favorite_btn.visible = true,
+    compare_btn.visible = true, syllabus_btn.visible = true;
+
+    Utils.delay(0.2, function() {
+      add_btn.animate({
+        properties : {
+          opacity : 1
+        },
+        curve : "ease-in-out",
+        time : 0.2
+      });
+    });
+    Utils.delay(0.3, function() {
+      favorite_btn.animate({
+        properties : {
+          opacity : 1
+        },
+        curve : "ease-in-out",
+        time : 0.2
+      });
+    });
+    Utils.delay(0.4, function() {
+      compare_btn.animate({
+        properties : {
+          opacity : 1
+        },
+        curve : "ease-in-out",
+        time : 0.2
+      });
+    });
+    Utils.delay(0.5, function() {
+      syllabus_btn.animate({
+        properties : {
+          opacity : 1
+        },
+        curve : "ease-in-out",
+        time : 0.2
+      });
+    });
+  }//else
+  
 }
