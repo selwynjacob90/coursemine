@@ -47,6 +47,9 @@ var attach_event_handlers = function () {
   cm_layers["add_btn"].on(Events.Click, handle_add_btn);
   cm_layers["review_close"].on(Events.Click, handle_add_close);
   cm_layers["review_pub"].on(Events.Click, handle_add_close);
+  cm_layers["favorite_btn"].on(Events.Click, handle_favorites_btn);
+  cm_layers["fav_add"].on(Events.Click, handle_favorites_add);
+  cm_layers["fav_decline"].on(Events.Click, handle_favorites_close);
 }
 
 //init
@@ -55,7 +58,7 @@ var layers_to_hide = [
   "Auto_Results", "results_filter", "fab_bg", "fab_content",
   "add_btn", "favorite_btn", "compare_btn", "syllabus_btn",
   "main_dashboard", "analytics_active", "qa_active", "reviews_active",
-  "main_reviews", "main_qa", "review_modal"
+  "main_reviews", "main_qa", "review_modal", "fav_modal", "fav_toast"
 ]
 
 var cm_globals = {

@@ -383,7 +383,7 @@ var handle_add_btn = function () {
       },
       curve: "ease-in-out",
       time : 0.25
-    })
+    });
     handle_actions_fab();
   }
 }
@@ -396,9 +396,61 @@ var handle_add_close = function () {
     },
     curve: "ease-in-out",
     time : 0.25
-  })
+  });
   Utils.delay(0.35, function() {
     modal.visible = false;  
+  });
+}
+
+var handle_favorites_btn = function () {
+  if(this.opacity == 1) {
+    var modal = cm_layers.fav_modal;
+    modal.opacity = 0;
+    modal.visible = true;
+    modal.animate({
+      properties : {
+        opacity: 1
+      },
+      curve: "ease-in-out",
+      time : 0.25
+    });
+    handle_actions_fab();
+  }
+}
+
+var handle_favorites_close = function () {
+  var modal = cm_layers.fav_modal;
+  modal.animate({
+    properties : {
+      opacity: 0
+    },
+    curve: "ease-in-out",
+    time : 0.25
+  });
+  Utils.delay(0.35, function() {
+    modal.visible = false;  
+  });
+}
+
+var handle_favorites_add = function () {
+  handle_favorites_close();
+  var toast = cm_layers.fav_toast;
+  toast.opacity = 0;
+  toast.visible = true;
+  toast.animate({
+    properties : {
+      opacity : 1
+    },
+    curve : "ease-in-out",
+    time : 1
+  });
+  Utils.delay(2, function() {
+   toast.animate({
+     properties : {
+       opacity : 0
+     },
+     curve : "ease-in-out",
+     time : 1
+   });
   })
-  
 }

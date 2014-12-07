@@ -1954,6 +1954,105 @@
     "children" : [
       {
         "maskFrame" : null,
+        "id" : "A16015BC-4363-4E5B-B9EB-69721FAA6757",
+        "visible" : true,
+        "children" : [
+
+        ],
+        "image" : {
+          "path" : "images\/fav_toast-A16015BC-4363-4E5B-B9EB-69721FAA6757.png",
+          "frame" : {
+            "y" : 199,
+            "x" : 1324,
+            "width" : 265,
+            "height" : 71
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : 199,
+          "x" : 1324,
+          "width" : 265,
+          "height" : 71
+        },
+        "name" : "fav_toast"
+      },
+      {
+        "maskFrame" : null,
+        "id" : "6CA63D09-D50D-4C66-ACB6-450C8E9E6B49",
+        "visible" : true,
+        "children" : [
+          {
+            "maskFrame" : null,
+            "id" : "8B31E507-44A6-4929-B0AF-CB187C174E15",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/fav_decline-8B31E507-44A6-4929-B0AF-CB187C174E15.png",
+              "frame" : {
+                "y" : 747,
+                "x" : 1329,
+                "width" : 106,
+                "height" : 22
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 747,
+              "x" : 1329,
+              "width" : 106,
+              "height" : 22
+            },
+            "name" : "fav_decline"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "848F1040-0957-4E78-88E1-98296A70FDF8",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/fav_add-848F1040-0957-4E78-88E1-98296A70FDF8.png",
+              "frame" : {
+                "y" : 748,
+                "x" : 1464,
+                "width" : 55,
+                "height" : 20
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 748,
+              "x" : 1464,
+              "width" : 55,
+              "height" : 20
+            },
+            "name" : "fav_add"
+          }
+        ],
+        "image" : {
+          "path" : "images\/fav_modal-6CA63D09-D50D-4C66-ACB6-450C8E9E6B49.png",
+          "frame" : {
+            "y" : -6,
+            "x" : 0,
+            "width" : 2560,
+            "height" : 1600
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : -6,
+          "x" : 0,
+          "width" : 2560,
+          "height" : 1600
+        },
+        "name" : "fav_modal"
+      },
+      {
+        "maskFrame" : null,
         "id" : "B1F1D835-E696-4D7F-A679-D3AC68D03E64",
         "visible" : true,
         "children" : [
