@@ -44,7 +44,9 @@ var attach_event_handlers = function () {
   cm_layers["582_title_1"].on(Events.Click, handle_course_page);
   cm_layers["actions_fab"].on(Events.Click, handle_actions_fab);
   attach_coursepage_navitems();
-  
+  cm_layers["add_btn"].on(Events.Click, handle_add_btn);
+  cm_layers["review_close"].on(Events.Click, handle_add_close);
+  cm_layers["review_pub"].on(Events.Click, handle_add_close);
 }
 
 //init
@@ -53,12 +55,13 @@ var layers_to_hide = [
   "Auto_Results", "results_filter", "fab_bg", "fab_content",
   "add_btn", "favorite_btn", "compare_btn", "syllabus_btn",
   "main_dashboard", "analytics_active", "qa_active", "reviews_active",
-  "main_reviews", "main_qa"
+  "main_reviews", "main_qa", "review_modal"
 ]
 
 var cm_globals = {
   fab_clicked : false,
-  actions_fab_clicked : false
+  actions_fab_clicked : false,
+  coursepage_state : "overview"
 };
 
 var typed_text;

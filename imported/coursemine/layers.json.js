@@ -1955,6 +1955,823 @@ window.__imported__["coursemine/layers.json.js"] = [
     "children" : [
       {
         "maskFrame" : null,
+        "id" : "B1F1D835-E696-4D7F-A679-D3AC68D03E64",
+        "visible" : true,
+        "children" : [
+          {
+            "maskFrame" : null,
+            "id" : "77DEAD22-0C93-4EB2-8A3B-D1362FCE56C3",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/review_close-77DEAD22-0C93-4EB2-8A3B-D1362FCE56C3.png",
+              "frame" : {
+                "y" : 415,
+                "x" : 1636,
+                "width" : 28,
+                "height" : 29
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 415,
+              "x" : 1636,
+              "width" : 28,
+              "height" : 29
+            },
+            "name" : "review_close"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "05EC020E-6F61-430D-815C-F004707A08C1",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "A2190541-3089-461B-8EBE-8837EFFFAE37",
+                "visible" : true,
+                "children" : [
+
+                ],
+                "image" : {
+                  "path" : "images\/accept-A2190541-3089-461B-8EBE-8837EFFFAE37.png",
+                  "frame" : {
+                    "y" : 1158,
+                    "x" : 1537,
+                    "width" : 115,
+                    "height" : 22
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 1158,
+                  "x" : 1537,
+                  "width" : 115,
+                  "height" : 22
+                },
+                "name" : "accept"
+              }
+            ],
+            "image" : {
+              "path" : "images\/review_pub-05EC020E-6F61-430D-815C-F004707A08C1.png",
+              "frame" : {
+                "y" : 1158,
+                "x" : 1537,
+                "width" : 115,
+                "height" : 22
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 1158,
+              "x" : 1537,
+              "width" : 115,
+              "height" : 22
+            },
+            "name" : "review_pub"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "99A5EAB2-3B04-47FC-8F6E-A00BD4D5E41F",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/text_field-99A5EAB2-3B04-47FC-8F6E-A00BD4D5E41F.png",
+              "frame" : {
+                "y" : 522,
+                "x" : 1100,
+                "width" : 550,
+                "height" : 2
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 522,
+              "x" : 1100,
+              "width" : 550,
+              "height" : 2
+            },
+            "name" : "text_field"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "1C6A7724-DD81-47FF-8553-1DF0F98859C1",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "D6350820-F7BA-4413-AC58-98C8D0034488",
+                "visible" : true,
+                "children" : [
+
+                ],
+                "image" : {
+                  "path" : "images\/radio_off-D6350820-F7BA-4413-AC58-98C8D0034488.png",
+                  "frame" : {
+                    "y" : 576,
+                    "x" : 1360,
+                    "width" : 20,
+                    "height" : 20
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 576,
+                  "x" : 1360,
+                  "width" : 20,
+                  "height" : 20
+                },
+                "name" : "radio_off"
+              }
+            ],
+            "image" : {
+              "path" : "images\/r1_5-1C6A7724-DD81-47FF-8553-1DF0F98859C1.png",
+              "frame" : {
+                "y" : 576,
+                "x" : 1360,
+                "width" : 40,
+                "height" : 21
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 576,
+              "x" : 1360,
+              "width" : 40,
+              "height" : 21
+            },
+            "name" : "r1_5"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "881DB8D7-E381-4F85-9832-477F3258A7A1",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "BAFC0616-5644-48B3-A8E6-6668BDCDAF63",
+                "visible" : true,
+                "children" : [
+
+                ],
+                "image" : {
+                  "path" : "images\/radio_off-BAFC0616-5644-48B3-A8E6-6668BDCDAF63.png",
+                  "frame" : {
+                    "y" : 576,
+                    "x" : 1297,
+                    "width" : 20,
+                    "height" : 20
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 576,
+                  "x" : 1297,
+                  "width" : 20,
+                  "height" : 20
+                },
+                "name" : "radio_off"
+              }
+            ],
+            "image" : {
+              "path" : "images\/r1_4-881DB8D7-E381-4F85-9832-477F3258A7A1.png",
+              "frame" : {
+                "y" : 576,
+                "x" : 1297,
+                "width" : 40,
+                "height" : 20
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 576,
+              "x" : 1297,
+              "width" : 40,
+              "height" : 20
+            },
+            "name" : "r1_4"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "3C657A21-E2B0-44DF-8BA9-C68E8402F717",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "62D7A2AB-6CA9-4B3A-809D-D91767DD68C7",
+                "visible" : true,
+                "children" : [
+
+                ],
+                "image" : {
+                  "path" : "images\/radio_off-62D7A2AB-6CA9-4B3A-809D-D91767DD68C7.png",
+                  "frame" : {
+                    "y" : 576,
+                    "x" : 1228,
+                    "width" : 20,
+                    "height" : 20
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 576,
+                  "x" : 1228,
+                  "width" : 20,
+                  "height" : 20
+                },
+                "name" : "radio_off"
+              }
+            ],
+            "image" : {
+              "path" : "images\/r1_3-3C657A21-E2B0-44DF-8BA9-C68E8402F717.png",
+              "frame" : {
+                "y" : 575,
+                "x" : 1228,
+                "width" : 39,
+                "height" : 22
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 575,
+              "x" : 1228,
+              "width" : 39,
+              "height" : 22
+            },
+            "name" : "r1_3"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "B3B7A950-B875-4848-A846-CF923F613319",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "F1895452-F0DC-43F0-AF73-15B4D4CE42AA",
+                "visible" : true,
+                "children" : [
+
+                ],
+                "image" : {
+                  "path" : "images\/radio_off-F1895452-F0DC-43F0-AF73-15B4D4CE42AA.png",
+                  "frame" : {
+                    "y" : 576,
+                    "x" : 1162,
+                    "width" : 20,
+                    "height" : 20
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 576,
+                  "x" : 1162,
+                  "width" : 20,
+                  "height" : 20
+                },
+                "name" : "radio_off"
+              }
+            ],
+            "image" : {
+              "path" : "images\/r1_2-B3B7A950-B875-4848-A846-CF923F613319.png",
+              "frame" : {
+                "y" : 575,
+                "x" : 1162,
+                "width" : 40,
+                "height" : 21
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 575,
+              "x" : 1162,
+              "width" : 40,
+              "height" : 21
+            },
+            "name" : "r1_2"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "EE86A80A-2403-4F8E-947B-4B58A70D429B",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : null,
+                "id" : "BAF8BA07-D33A-4276-9501-30E1B320758C",
+                "visible" : true,
+                "children" : [
+
+                ],
+                "image" : {
+                  "path" : "images\/radio_off-BAF8BA07-D33A-4276-9501-30E1B320758C.png",
+                  "frame" : {
+                    "y" : 576,
+                    "x" : 1101,
+                    "width" : 20,
+                    "height" : 20
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 576,
+                  "x" : 1101,
+                  "width" : 20,
+                  "height" : 20
+                },
+                "name" : "radio_off"
+              }
+            ],
+            "image" : {
+              "path" : "images\/r1-EE86A80A-2403-4F8E-947B-4B58A70D429B.png",
+              "frame" : {
+                "y" : 575,
+                "x" : 1101,
+                "width" : 35,
+                "height" : 21
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 575,
+              "x" : 1101,
+              "width" : 35,
+              "height" : 21
+            },
+            "name" : "r1"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "6004CAB7-8515-44A9-9E7A-84AC37590EE9",
+            "visible" : true,
+            "children" : [
+
+            ],
+            "image" : {
+              "path" : "images\/switch_off-6004CAB7-8515-44A9-9E7A-84AC37590EE9.png",
+              "frame" : {
+                "y" : 641,
+                "x" : 1098,
+                "width" : 39,
+                "height" : 26
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 641,
+              "x" : 1098,
+              "width" : 39,
+              "height" : 26
+            },
+            "name" : "switch_off"
+          },
+          {
+            "maskFrame" : null,
+            "id" : "130C734C-F96D-494E-B3DF-742C90C0244B",
+            "visible" : true,
+            "children" : [
+              {
+                "maskFrame" : {
+                  "y" : 751,
+                  "x" : 889,
+                  "width" : 189,
+                  "height" : 62
+                },
+                "id" : "BDDF3268-65AA-47AC-B507-4C9FBAC9FB4A",
+                "visible" : true,
+                "children" : [
+                  {
+                    "maskFrame" : null,
+                    "id" : "09195F29-D8E1-4AB6-B80D-4B0EAFDFA3A9",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/arrow_drop_down-09195F29-D8E1-4AB6-B80D-4B0EAFDFA3A9.png",
+                      "frame" : {
+                        "y" : 779,
+                        "x" : 1042,
+                        "width" : 11,
+                        "height" : 5
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 779,
+                      "x" : 1042,
+                      "width" : 11,
+                      "height" : 5
+                    },
+                    "name" : "arrow_drop_down"
+                  }
+                ],
+                "image" : {
+                  "path" : "images\/font-BDDF3268-65AA-47AC-B507-4C9FBAC9FB4A.png",
+                  "frame" : {
+                    "y" : 751,
+                    "x" : 889,
+                    "width" : 189,
+                    "height" : 62
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 751,
+                  "x" : 889,
+                  "width" : 189,
+                  "height" : 62
+                },
+                "name" : "font"
+              },
+              {
+                "maskFrame" : null,
+                "id" : "134EFA74-93EC-4157-A296-A68E6099F78C",
+                "visible" : true,
+                "children" : [
+                  {
+                    "maskFrame" : null,
+                    "id" : "82255E75-0088-4274-84B4-15FF6D5AB8A4",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/arrow_drop_down-82255E75-0088-4274-84B4-15FF6D5AB8A4.png",
+                      "frame" : {
+                        "y" : 779,
+                        "x" : 1162,
+                        "width" : 11,
+                        "height" : 6
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 779,
+                      "x" : 1162,
+                      "width" : 11,
+                      "height" : 6
+                    },
+                    "name" : "arrow_drop_down"
+                  }
+                ],
+                "image" : {
+                  "path" : "images\/size-134EFA74-93EC-4157-A296-A68E6099F78C.png",
+                  "frame" : {
+                    "y" : 775,
+                    "x" : 1099,
+                    "width" : 74,
+                    "height" : 11
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 775,
+                  "x" : 1099,
+                  "width" : 74,
+                  "height" : 11
+                },
+                "name" : "size"
+              },
+              {
+                "maskFrame" : null,
+                "id" : "F50F059F-08AF-4555-A9AA-DACB403D2741",
+                "visible" : true,
+                "children" : [
+                  {
+                    "maskFrame" : null,
+                    "id" : "FF5271A1-4EFD-47B1-B842-E3B2DAF2E756",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/bold-FF5271A1-4EFD-47B1-B842-E3B2DAF2E756.png",
+                      "frame" : {
+                        "y" : 773,
+                        "x" : 1226,
+                        "width" : 12,
+                        "height" : 14
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 773,
+                      "x" : 1226,
+                      "width" : 12,
+                      "height" : 14
+                    },
+                    "name" : "bold"
+                  },
+                  {
+                    "maskFrame" : null,
+                    "id" : "D05E1CA7-686B-4ED6-9D49-1B1C74C1BCF0",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/underline-D05E1CA7-686B-4ED6-9D49-1B1C74C1BCF0.png",
+                      "frame" : {
+                        "y" : 772,
+                        "x" : 1320,
+                        "width" : 15,
+                        "height" : 18
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 772,
+                      "x" : 1320,
+                      "width" : 15,
+                      "height" : 18
+                    },
+                    "name" : "underline"
+                  },
+                  {
+                    "maskFrame" : null,
+                    "id" : "B7757F90-2A66-4FAF-8831-D58B3E96DD5C",
+                    "visible" : true,
+                    "children" : [
+                      {
+                        "maskFrame" : null,
+                        "id" : "E4899CB1-6EB6-4A6C-954B-98AF1D5CC946",
+                        "visible" : true,
+                        "children" : [
+
+                        ],
+                        "image" : {
+                          "path" : "images\/arrow_drop_down-E4899CB1-6EB6-4A6C-954B-98AF1D5CC946.png",
+                          "frame" : {
+                            "y" : 779,
+                            "x" : 1392,
+                            "width" : 11,
+                            "height" : 5
+                          }
+                        },
+                        "imageType" : "png",
+                        "layerFrame" : {
+                          "y" : 779,
+                          "x" : 1392,
+                          "width" : 11,
+                          "height" : 5
+                        },
+                        "name" : "arrow_drop_down"
+                      },
+                      {
+                        "maskFrame" : null,
+                        "id" : "315CB2AF-4D5B-4F09-B5E6-BAD4AA39BA79",
+                        "visible" : true,
+                        "children" : [
+
+                        ],
+                        "image" : {
+                          "path" : "images\/fill_icon-315CB2AF-4D5B-4F09-B5E6-BAD4AA39BA79.png",
+                          "frame" : {
+                            "y" : 769,
+                            "x" : 1366,
+                            "width" : 19,
+                            "height" : 17
+                          }
+                        },
+                        "imageType" : "png",
+                        "layerFrame" : {
+                          "y" : 769,
+                          "x" : 1366,
+                          "width" : 19,
+                          "height" : 17
+                        },
+                        "name" : "fill_icon"
+                      }
+                    ],
+                    "image" : {
+                      "path" : "images\/fill-B7757F90-2A66-4FAF-8831-D58B3E96DD5C.png",
+                      "frame" : {
+                        "y" : 769,
+                        "x" : 1363,
+                        "width" : 40,
+                        "height" : 24
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 769,
+                      "x" : 1363,
+                      "width" : 40,
+                      "height" : 24
+                    },
+                    "name" : "fill"
+                  },
+                  {
+                    "maskFrame" : null,
+                    "id" : "1D71229C-2117-4840-B1E7-9E6B3911A75D",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/italic-1D71229C-2117-4840-B1E7-9E6B3911A75D.png",
+                      "frame" : {
+                        "y" : 773,
+                        "x" : 1273,
+                        "width" : 13,
+                        "height" : 14
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 773,
+                      "x" : 1273,
+                      "width" : 13,
+                      "height" : 14
+                    },
+                    "name" : "italic"
+                  }
+                ],
+                "image" : {
+                  "path" : "images\/style-F50F059F-08AF-4555-A9AA-DACB403D2741.png",
+                  "frame" : {
+                    "y" : 769,
+                    "x" : 1226,
+                    "width" : 177,
+                    "height" : 24
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 769,
+                  "x" : 1226,
+                  "width" : 177,
+                  "height" : 24
+                },
+                "name" : "style"
+              },
+              {
+                "maskFrame" : null,
+                "id" : "9E5E9071-7696-4E7E-8DF6-8A15365713A7",
+                "visible" : true,
+                "children" : [
+                  {
+                    "maskFrame" : null,
+                    "id" : "EEBD43D8-0BEF-4501-BE6C-CE08700C5ED5",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/justified-EEBD43D8-0BEF-4501-BE6C-CE08700C5ED5.png",
+                      "frame" : {
+                        "y" : 772,
+                        "x" : 1606,
+                        "width" : 19,
+                        "height" : 18
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 772,
+                      "x" : 1606,
+                      "width" : 19,
+                      "height" : 18
+                    },
+                    "name" : "justified"
+                  },
+                  {
+                    "maskFrame" : null,
+                    "id" : "5757BB34-7884-495A-B52E-9F7CB9FEE0E2",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/left-5757BB34-7884-495A-B52E-9F7CB9FEE0E2.png",
+                      "frame" : {
+                        "y" : 772,
+                        "x" : 1462,
+                        "width" : 19,
+                        "height" : 18
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 772,
+                      "x" : 1462,
+                      "width" : 19,
+                      "height" : 18
+                    },
+                    "name" : "left"
+                  },
+                  {
+                    "maskFrame" : null,
+                    "id" : "C975066B-C22D-4031-824A-7FBBE367C8A6",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/center-C975066B-C22D-4031-824A-7FBBE367C8A6.png",
+                      "frame" : {
+                        "y" : 772,
+                        "x" : 1510,
+                        "width" : 19,
+                        "height" : 18
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 772,
+                      "x" : 1510,
+                      "width" : 19,
+                      "height" : 18
+                    },
+                    "name" : "center"
+                  },
+                  {
+                    "maskFrame" : null,
+                    "id" : "38D9B5BC-4934-42FE-9B05-7ACE5BF953FB",
+                    "visible" : true,
+                    "children" : [
+
+                    ],
+                    "image" : {
+                      "path" : "images\/right-38D9B5BC-4934-42FE-9B05-7ACE5BF953FB.png",
+                      "frame" : {
+                        "y" : 772,
+                        "x" : 1558,
+                        "width" : 19,
+                        "height" : 18
+                      }
+                    },
+                    "imageType" : "png",
+                    "layerFrame" : {
+                      "y" : 772,
+                      "x" : 1558,
+                      "width" : 19,
+                      "height" : 18
+                    },
+                    "name" : "right"
+                  }
+                ],
+                "image" : {
+                  "path" : "images\/alignment-9E5E9071-7696-4E7E-8DF6-8A15365713A7.png",
+                  "frame" : {
+                    "y" : 772,
+                    "x" : 1462,
+                    "width" : 163,
+                    "height" : 18
+                  }
+                },
+                "imageType" : "png",
+                "layerFrame" : {
+                  "y" : 772,
+                  "x" : 1462,
+                  "width" : 163,
+                  "height" : 18
+                },
+                "name" : "alignment"
+              }
+            ],
+            "image" : {
+              "path" : "images\/toolbar-130C734C-F96D-494E-B3DF-742C90C0244B.png",
+              "frame" : {
+                "y" : 751,
+                "x" : 889,
+                "width" : 763,
+                "height" : 62
+              }
+            },
+            "imageType" : "png",
+            "layerFrame" : {
+              "y" : 751,
+              "x" : 889,
+              "width" : 763,
+              "height" : 62
+            },
+            "name" : "toolbar"
+          }
+        ],
+        "image" : {
+          "path" : "images\/review_modal-B1F1D835-E696-4D7F-A679-D3AC68D03E64.png",
+          "frame" : {
+            "y" : -6,
+            "x" : 0,
+            "width" : 2560,
+            "height" : 1600
+          }
+        },
+        "imageType" : "png",
+        "layerFrame" : {
+          "y" : -6,
+          "x" : 0,
+          "width" : 2560,
+          "height" : 1600
+        },
+        "name" : "review_modal"
+      },
+      {
+        "maskFrame" : null,
         "id" : "32AB5205-DD35-4877-AA2E-4ED3E8CEFA23",
         "visible" : true,
         "children" : [

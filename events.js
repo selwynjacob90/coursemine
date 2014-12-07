@@ -325,6 +325,8 @@ var handle_dashboard = function () {
   cm_layers.main_reviews.visible = false;
   cm_layers.main_qa.visible = false;
   cm_layers.main_dashboard.visible = true;
+
+  cm_globals.coursepage_state = "dashboard";
 }
 
 var handle_overview = function () {
@@ -337,6 +339,8 @@ var handle_overview = function () {
   cm_layers.main_reviews.visible = false;
   cm_layers.main_qa.visible = false;
   cm_layers.main_overview.visible = true;
+
+  cm_globals.coursepage_state = "overview";
 }
 
 var handle_reviews = function () {
@@ -349,6 +353,8 @@ var handle_reviews = function () {
   cm_layers.main_overview.visible = false;
   cm_layers.main_qa.visible = false;
   cm_layers.main_reviews.visible = true;
+
+  cm_globals.coursepage_state = "reviews";
 }
 
 var handle_qa = function () {
@@ -361,4 +367,38 @@ var handle_qa = function () {
   cm_layers.main_overview.visible = false;
   cm_layers.main_reviews.visible = false;
   cm_layers.main_qa.visible = true;
+
+  cm_globals.coursepage_state = "qa";
+}
+
+var handle_add_btn = function () {
+  if(this.opacity == 1) {
+    //console.log(cm_globals.coursepage_state);
+    var modal = cm_layers.review_modal;
+    modal.opacity = 0;
+    modal.visible = true;
+    modal.animate({
+      properties : {
+        opacity: 1
+      },
+      curve: "ease-in-out",
+      time : 0.25
+    })
+    handle_actions_fab();
+  }
+}
+
+var handle_add_close = function () {
+  var modal = cm_layers.review_modal;
+  modal.animate({
+    properties : {
+      opacity: 0
+    },
+    curve: "ease-in-out",
+    time : 0.25
+  })
+  Utils.delay(0.35, function() {
+    modal.visible = false;  
+  })
+  
 }
