@@ -314,3 +314,51 @@ var handle_actions_fab = function () {
   }//else
   
 }
+
+var handle_dashboard = function () {
+  cm_layers.reviews_active.visible = false;
+  cm_layers.qa_active.visible = false;
+  cm_layers.overview_active.visible = false;
+  cm_layers.analytics_active.visible = true;
+
+  cm_layers.main_overview.visible = false;
+  cm_layers.main_reviews.visible = false;
+  cm_layers.main_qa.visible = false;
+  cm_layers.main_dashboard.visible = true;
+}
+
+var handle_overview = function () {
+  cm_layers.analytics_active.visible = false;
+  cm_layers.reviews_active.visible = false;
+  cm_layers.qa_active.visible = false;
+  cm_layers.overview_active.visible = true;
+
+  cm_layers.main_dashboard.visible = false;
+  cm_layers.main_reviews.visible = false;
+  cm_layers.main_qa.visible = false;
+  cm_layers.main_overview.visible = true;
+}
+
+var handle_reviews = function () {
+  cm_layers.analytics_active.visible = false;
+  cm_layers.qa_active.visible = false;
+  cm_layers.overview_active.visible = false;
+  cm_layers.reviews_active.visible = true;
+
+  cm_layers.main_dashboard.visible = false;
+  cm_layers.main_overview.visible = false;
+  cm_layers.main_qa.visible = false;
+  cm_layers.main_reviews.visible = true;
+}
+
+var handle_qa = function () {
+  cm_layers.analytics_active.visible = false;
+  cm_layers.overview_active.visible = false;
+  cm_layers.reviews_active.visible = false;
+  cm_layers.qa_active.visible = true;
+
+  cm_layers.main_dashboard.visible = false;
+  cm_layers.main_overview.visible = false;
+  cm_layers.main_reviews.visible = false;
+  cm_layers.main_qa.visible = true;
+}
