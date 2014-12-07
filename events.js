@@ -100,7 +100,8 @@ var handle_checkboxes = function () {
   });
 
   _.each(checkboxes_on, function(checkbox, idx, checkboxes_on) {
-    
+    checkbox.visible = false;
+
     checkbox.on(Events.Click, function() {      
       checkbox.animate({
         properties: {
@@ -134,4 +135,62 @@ var handle_search_btn_click = function () {
   results_artboard.visible = true;
 
   handle_checkboxes();
+}
+
+var handle_filter_btn_click = function () {
+  if(cm_layers["results_pane"].visible) {
+    cm_layers["results_pane"].visible = false;
+    cm_layers["results_filter"].visible = true;  
+  } else {
+    cm_layers["results_pane"].visible = true;
+    cm_layers["results_filter"].visible = false;  
+  }
+}
+
+var handle_fab_click = function () {
+  if(cm_globals.fab_clicked) {
+    cm_layers.fab_content.animate({ 
+      properties : {
+        opacity : 0
+      },
+      curve: "ease-in-out",
+      time: 0.2
+    }); 
+
+    Utils.delay(0.35, function() {
+      cm_layers.fab_bg.animate({
+        properties : {
+         width: 0
+        },
+        curve : "spring(200,20,5)",
+      });
+    });
+    cm_globals.fab_clicked = false;
+  } 
+  else {
+    cm_layers.fab_bg.visible = true;
+    
+    cm_layers.fab_bg.width = 0;
+    cm_layers.fab_bg.animate({
+      properties : {
+        width: 621
+      },
+      curve : "spring(200,20,12)",
+    });
+    
+    cm_layers.fab_content.opacity = 0;
+    cm_layers.fab_content.visible = true;
+    Utils.delay(0.3, function() {
+      cm_layers.fab_content.animate({ 
+        properties : {
+          opacity : 1
+        },
+        curve: "ease-in-out",
+        time: 0.2
+      });  
+    });
+    
+    cm_globals.fab_clicked = true;
+  } //else
+  
 }
