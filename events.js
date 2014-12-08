@@ -128,7 +128,10 @@ var handle_checkboxes = function () {
 
 var handle_search_btn_click = function () {
   cm_layers["Landing"].visible = false;
-  typed_text.visible = false;
+  if(typed_text) {
+    typed_text.visible = false;  
+  }
+  
   
   var results_artboard = cm_layers["Results"];
   results_artboard.scale = 0.5;

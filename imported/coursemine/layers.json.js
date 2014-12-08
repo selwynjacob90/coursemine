@@ -1776,18 +1776,18 @@ window.__imported__["coursemine/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/menu_-1204FE0D-515E-45FD-804B-F92CDE83C559.png",
                   "frame" : {
-                    "y" : 155,
-                    "x" : 1552,
-                    "width" : 174,
-                    "height" : 36
+                    "y" : 157,
+                    "x" : 1569,
+                    "width" : 143,
+                    "height" : 34
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 155,
-                  "x" : 1552,
-                  "width" : 174,
-                  "height" : 36
+                  "y" : 157,
+                  "x" : 1569,
+                  "width" : 143,
+                  "height" : 34
                 },
                 "name" : "menu_"
               },
@@ -1803,16 +1803,16 @@ window.__imported__["coursemine/layers.json.js"] = [
                   "frame" : {
                     "y" : 155,
                     "x" : 1324,
-                    "width" : 155,
-                    "height" : 36
+                    "width" : 146,
+                    "height" : 29
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
                   "y" : 155,
                   "x" : 1324,
-                  "width" : 155,
-                  "height" : 36
+                  "width" : 146,
+                  "height" : 29
                 },
                 "name" : "menu_fav"
               },
@@ -1872,7 +1872,7 @@ window.__imported__["coursemine/layers.json.js"] = [
               "frame" : {
                 "y" : 155,
                 "x" : 874,
-                "width" : 852,
+                "width" : 838,
                 "height" : 45
               }
             },
@@ -1880,7 +1880,7 @@ window.__imported__["coursemine/layers.json.js"] = [
             "layerFrame" : {
               "y" : 155,
               "x" : 874,
-              "width" : 852,
+              "width" : 838,
               "height" : 45
             },
             "name" : "nav_Tabs"
@@ -4983,18 +4983,18 @@ window.__imported__["coursemine/layers.json.js"] = [
                 "image" : {
                   "path" : "images\/menu_-620F4F65-D2DB-401D-967C-0B093BC47531.png",
                   "frame" : {
-                    "y" : 149,
-                    "x" : 1552,
-                    "width" : 174,
-                    "height" : 36
+                    "y" : 151,
+                    "x" : 1553,
+                    "width" : 143,
+                    "height" : 34
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
-                  "y" : 149,
-                  "x" : 1552,
-                  "width" : 174,
-                  "height" : 36
+                  "y" : 151,
+                  "x" : 1553,
+                  "width" : 143,
+                  "height" : 34
                 },
                 "name" : "menu_"
               },
@@ -5010,16 +5010,16 @@ window.__imported__["coursemine/layers.json.js"] = [
                   "frame" : {
                     "y" : 149,
                     "x" : 1324,
-                    "width" : 155,
-                    "height" : 36
+                    "width" : 146,
+                    "height" : 29
                   }
                 },
                 "imageType" : "png",
                 "layerFrame" : {
                   "y" : 149,
                   "x" : 1324,
-                  "width" : 155,
-                  "height" : 36
+                  "width" : 146,
+                  "height" : 29
                 },
                 "name" : "menu_fav"
               },
@@ -5079,7 +5079,7 @@ window.__imported__["coursemine/layers.json.js"] = [
               "frame" : {
                 "y" : 149,
                 "x" : 874,
-                "width" : 852,
+                "width" : 822,
                 "height" : 45
               }
             },
@@ -5087,7 +5087,7 @@ window.__imported__["coursemine/layers.json.js"] = [
             "layerFrame" : {
               "y" : 149,
               "x" : 874,
-              "width" : 852,
+              "width" : 822,
               "height" : 45
             },
             "name" : "nav_Tabs"
