@@ -52,23 +52,38 @@ var attach_event_handlers = function () {
   cm_layers["fav_decline"].on(Events.Click, handle_favorites_close);
 }
 
-//init
-var cm_layers = Framer.Importer.load("imported/coursemine");
-var layers_to_hide = [
-  "Auto_Results", "results_filter", "fab_bg", "fab_content",
-  "add_btn", "favorite_btn", "compare_btn", "syllabus_btn",
-  "main_dashboard", "analytics_active", "qa_active", "reviews_active",
-  "main_reviews", "main_qa", "review_modal", "fav_modal", "fav_toast"
-]
 
-var cm_globals = {
-  fab_clicked : false,
-  actions_fab_clicked : false,
-  coursepage_state : "overview"
-};
+var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
+var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
+var isChrome = !!window.chrome && !isOpera;
 
-var typed_text;
+if (isChrome || isSafari) {
+  //init
+  var cm_layers = Framer.Importer.load("imported/coursemine");
+  var layers_to_hide = [
+    "Auto_Results", "results_filter", "fab_bg", "fab_content",
+    "add_btn", "favorite_btn", "compare_btn", "syllabus_btn",
+    "main_dashboard", "analytics_active", "qa_active", "reviews_active",
+    "main_reviews", "main_qa", "review_modal", "fav_modal", "fav_toast"
+  ]
 
-init_scale();
-hide_layers();
-attach_event_handlers();
+  var cm_globals = {
+    fab_clicked : false,
+    actions_fab_clicked : false,
+    coursepage_state : "overview"
+  };
+
+  var typed_text;
+
+  init_scale();
+  hide_layers();
+  attach_event_handlers();
+}
+else {
+  alert("Please view in Chrome or Safari. Thanks :)");
+}
+
+
+
+
+
